@@ -10,7 +10,7 @@ HELPER SCRIPTS:
 Checkoverlap.py - For identifying any overlapping notes in the midi file
 I recommend running checkoverlap.py before making the svg, overlapping notes may cause some unexpected results so make sure there are none. There is 1 overlap in the example file to test out this script.
 
-Sustainadd.py - Useful for downloaded midi files that have the sustain pedal as program changes. This script adds a note at note 18 (used for the sustain pedal) whenever control 64 is above 0, until control 64 is at 0 again. Try it out on the example file
+Sustainadd.py - Useful for downloaded midi files that may have the sustain pedal as program changes. This script adds a note at note 18 (used for the sustain pedal) whenever control 64 is above 0, until control 64 is at 0 again. Try it out on the example file.
 
 
 MAIN SCRIPTS:
