@@ -26,7 +26,7 @@ https://www.mmdigest.com/Tech/20er_gamma.html.
 
 HOW TO USE:
 
-First time: Set up the python environment and install the libraries that you run into.
+First time: Set up a python environment and install the libraries that you run into.
 
 - Put a midi file in the same folder as all this
 - Open startup.bat and make a selection, or activate the environment and the script manually
