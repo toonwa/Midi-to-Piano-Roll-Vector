@@ -19,9 +19,7 @@ Miditoroll.py - Turns a midi file into a piano roll svg.
 The svg will be scaled based on the shortest note found in the midi file. It's up to you to arrange your music in a way that is playable on the piano.
 Note 18 (used for the sustain pedal) is placed slightly to the left on the svg to better align with the tracking hole that reads this. If you have a different tracking bar on your piano, edit the configuration variable in the script.
 
-Miditoorgan.py - Turns a midi file into a 20 note organ svg. Make sure the midi file uses these notes:
-https://www.mmdigest.com/Tech/20er_gamma.html.
-4 extra holes above the standard 20 for percussion etc is supported
+Miditoorgan.py - Turns a midi file into a 20 note organ roll svg. Make sure the midi file only uses the notes included in the example file + 4 extra holes above the standard 20 for percussion etc is supported
 
 
 HOW TO USE:
