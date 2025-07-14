@@ -15,7 +15,7 @@ Sustainadd.py - Useful for downloaded midi files that may have the sustain pedal
 
 MAIN SCRIPTS:
 
-Miditoroll.py - Turns a midi file into a piano roll svg
+Miditoroll.py - Turns a midi file into a piano roll svg.
 Note 18 (used for the sustain pedal) is placed slightly to the left on the svg to better align with the tracking hole that reads this. If you have a different tracking bar on your piano, edit the configuration variable in the script.
 
 Miditoorgan.py - Turns a midi file into a 20 note organ svg. Make sure the midi file uses these notes:
