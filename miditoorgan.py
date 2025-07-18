@@ -72,7 +72,7 @@ def piano_roll_to_svg(matrix, min_duration, filename="piano_roll.svg", note_heig
     scaled_blank_space_end_mm = BLANK_SPACE_END_MM * scaling_factor
     scaled_long_note_threshold = long_note_threshold * scaling_factor
     scaled_bridge_width = bridge_width_mm * scaling_factor  # Configurable bridge width
-    min_first_part_length = 3 * scaling_factor  # Minimum first part length
+    min_first_part_length = 1.5 * note_height * scaling_factor  # Minimum first part length
 
     note_width_scaling_factor = scaled_base_length_mm / min_duration  # Adjusted scale based on shortest note
 
