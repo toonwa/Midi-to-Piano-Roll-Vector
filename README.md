@@ -1,6 +1,6 @@
 # Midi-to-Piano-Roll-Vector
 Python script that turns midi files into svg files to be (laser)cut by a plotter and played on a player piano.
-Also includes a similar script for making the common 20 note rolls used by organs by deleika, raffin, etc.
+Also includes a similar script for making the common 20 note rolls used by organs from deleika, raffin, etc.
 
 !!Before cutting out an entire song, I recommend doing some testing and, if necessarry, adjusting the configuration variables at the top of the main scripts.
 
